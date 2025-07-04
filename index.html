@@ -375,6 +375,7 @@
           </div>
         </div>
       </nav>
+      <!-- hero section -->
       <section
         class="d-flex align-items-center text-white"
         style="
@@ -385,9 +386,13 @@
         <div class="container text-center bg-dark bg-opacity-50 p-5 rounded">
           <h1 class="display-3 fw-bold">Discover GNDEC</h1>
           <p class="lead">A legacy of excellence in engineering education</p>
-          <a href="#admission" class="btn btn-outline-light btn-lg mt-3"
-            >Apply Now</a
+          <button
+            class="btn btn-theme btn-lg mt-3"
+            data-bs-toggle="modal"
+            data-bs-target="#applyModal"
           >
+            Apply Now
+          </button>
         </div>
       </section>
       <!-- <section class="py-5 bg-white">
@@ -1091,6 +1096,43 @@
               <button type="submit" class="btn btn-theme w-100">
                 Send Message
               </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Apply Now Modal -->
+    <div class="modal fade" id="applyModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Admission Enquiry</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <input
+                class="form-control mb-2"
+                type="text"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                class="form-control mb-2"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                class="form-control mb-2"
+                placeholder="Your Message"
+                rows="3"
+              ></textarea>
+              <button type="submit" class="btn btn-theme">Submit</button>
             </form>
           </div>
         </div>
