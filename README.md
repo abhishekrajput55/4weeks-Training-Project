@@ -3,6 +3,7 @@
 This is a modernized redesign of the official website for **Guru Nanak Dev Engineering College (GNDEC), Ludhiana**. Built using **HTML**, **CSS**, **Bootstrap**, and enhanced with custom JS and animations, the site maintains the original content structure but delivers an updated UI/UX.
 
 ## 🖥️ Live Preview
+
 (https://abhishekrajput55.github.io/4weeks-Training-Project/)
 
 ## 🎯 Features
@@ -17,14 +18,17 @@ This is a modernized redesign of the official website for **Guru Nanak Dev Engin
 
 ## 🚀 Technologies Used
 
-- HTML5  
-- CSS3  
-- Bootstrap 5  
-- JavaScript (for interactions and animation)  
-- Google Fonts & Icons  
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript (for interactions and animation)
+- Google Fonts & Icons
 
 ## 🛠️ How to Use
 
-1. **Clone the repo**  
+1. **Clone the repo**
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+   ```
+
+changes perform by abhishek
