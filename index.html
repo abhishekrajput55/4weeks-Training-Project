@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Full Page Layout</title>
+    <title>GNDEC_Clone</title>
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,139 +15,7 @@
       rel="stylesheet"
     />
 
-    <style>
-      body,
-      html {
-        height: 100%;
-        background-color: var(--bg);
-      }
-      :root {
-        --bg: #fef9e6;
-        --theme: #648d2d;
-        --white: #ffffff;
-        --theme-color-light: #e6f0ff;
-      }
-      .hero {
-        height: 100vh; /* Full viewport height */
-        background: linear-gradient(135deg, #6c63ff, #4e54c8);
-        color: white;
-      }
-      /* Icon color white */
-      .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e");
-      }
-
-      /* Border stays white on focus/active/hover */
-      .navbar-toggler:focus,
-      .navbar-toggler:active,
-      .navbar-toggler:hover {
-        border-color: #ffffff;
-        box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
-      }
-      .btn-theme {
-        background-color: transparent; /* Your theme color */
-        color: var(--theme);
-        border: 2px solid var(--theme);
-      }
-
-      .btn-theme:hover {
-        background-color: var(--theme); /* Optional darker shade */
-        color: white;
-      }
-      .text-theme {
-        color: var(--theme);
-      }
-
-      .nav-tabs .nav-link {
-        color: var(--theme);
-        border: 1px solid transparent;
-        border-bottom: 2px solid transparent;
-      }
-
-      .nav-tabs .nav-link.active {
-        background-color: var(--theme-color-light);
-        color: var(--theme);
-        border-color: var(--theme) var(--theme) transparent;
-        font-weight: bold;
-      }
-
-      .nav-tabs .nav-link:hover {
-        color: var(--theme);
-        background-color: var(--theme-color-light);
-      }
-      .text-theme {
-        color: var(--theme);
-      }
-
-      .alumni-section {
-        background-color: #f8f9fa;
-        padding: 60px 0;
-      }
-
-      .alumni-scroll-wrapper {
-        overflow: hidden;
-        position: relative;
-      }
-
-      /* .alumni-scroll-track {
-            display: flex;
-            gap: 2rem;
-            width: max-content;
-            animation: scroll-left 1s linear infinite;
-          } */
-
-      /* .alumni-scroll-wrapper:hover .alumni-scroll-track {
-            animation-play-state: paused;
-          } */
-
-      .alumni-card {
-        text-align: center;
-        min-width: 180px;
-        flex: 0 0 auto;
-      }
-
-      .alumni-card img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 3px solid var(--theme);
-      }
-
-      .alumni-card h6 {
-        margin-top: 10px;
-        font-weight: 600;
-      }
-
-      .alumni-card p {
-        margin: 0;
-        font-size: 14px;
-        color: #555;
-      }
-
-      /* @keyframes scroll-left {
-            0% {
-              transform: translateX(100%);
-            }
-            100% {
-              transform: translateX(-100%);
-            }
-          } */
-
-      .btn-theme {
-        background-color: var(--theme);
-        color: white;
-        border: none;
-      }
-
-      .btn-theme:hover {
-        background-color: #557725;
-      }
-
-      .bg-theme {
-        background-color: var(--theme) !important;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <div class="container-fluid">
@@ -157,7 +26,7 @@
         <div class="container-fluid">
           <!-- Left side logo -->
           <a class="navbar-brand" href="#">
-            <img src="gnelogo.png" alt="GNDEC Logo" height="80" />
+            <img src="assets/gnelogo.png" alt="GNDEC Logo" height="80" />
             <span class="text-white fw-bold"
               >Guru Nanak Dev Engineering College</span
             >
@@ -380,7 +249,7 @@
         class="d-flex align-items-center text-white"
         style="
           min-height: 100vh;
-          background: url('heroImg.jpeg') center/cover no-repeat;
+          background: url('assets/heroImg.jpeg') center/cover no-repeat;
         "
       >
         <div class="container text-center bg-dark bg-opacity-50 p-5 rounded">
@@ -475,7 +344,7 @@
             <!-- Left Column: Image -->
             <div class="col-md-6 mb-4 mb-md-0">
               <img
-                src="aboutImg.webp"
+                src="assets/aboutImg.webp"
                 alt="GNDEC Campus"
                 class="img-fluid rounded shadow"
               />
