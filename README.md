@@ -27,4 +27,4 @@ This is a modernized redesign of the official website for **Guru Nanak Dev Engin
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   https://github.com/abhishekrajput55/4weeks-Training-Project.git
